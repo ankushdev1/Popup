@@ -1,0 +1,54 @@
+.inner_all_content {
+    background: #fff;
+    width: 500px;
+    margin: 0 auto;
+    padding: 25px;
+	position:relative;
+}
+
+.title_hover_test {
+    background: #00000099;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    padding: 14% 0px;
+    z-index: 99;
+    width: 100%;
+	
+}
+.title_hover_test span.close_tit_popup {
+    position: absolute;
+    top: -15px;
+    right: -12px;
+    background: #d4c8c8;
+    border-radius: 19px;
+    padding: 4px;
+    z-index: 999;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+	cursor: pointer;
+}
+.title_hover_test span.close_tit_popup img {
+    width: 63%;
+    vertical-align: inherit;
+}
+.inner_all_content img{
+	width:200px;
+	height:200px;
+}
+.inner_all_content video{
+	width:300px;
+	height:300px;
+}
+@media only screen and (max-width: 992px)
+{
+.inner_all_content {
+    width: 85%;
+}
+.title_hover_test {
+    padding: 52% 0px;
+}
+}
+
